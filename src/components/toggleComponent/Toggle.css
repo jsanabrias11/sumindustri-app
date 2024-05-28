@@ -1,0 +1,9 @@
+.toggle {
+    color: red;
+}
+
+.toggle-switch {
+    width: 50px;
+    height: 25px;
+    background-color: beige;
+}
