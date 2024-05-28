@@ -7,10 +7,10 @@ export const AppRouter = () => {
   return (
     <>
         <Routes>
-            <Route path="/*" element={<Home />}/>
+            <Route path="/*" element={<Login />}/>
+            <Route path="/home" element={<Home />}/>
             <Route path="/tools" element={<Tools />}/>
             <Route path="/tools/withholding-calculator" element={<ToolWithholdingCalculator />}/>
-            <Route path="/login" element={<Login />}/>
         </Routes>
     </>
   )
