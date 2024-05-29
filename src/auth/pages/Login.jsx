@@ -14,7 +14,7 @@ export const Login = () => {
 
   return (
     <>
-      <main className="flex flex-col items-center justify-center w-full h-screen bg-black text-white font-mont">
+      <main className="flex flex-col items-center justify-center w-full h-calc80 bg-black text-white font-mont sm:h-screen">
         <div className="mx-auto min-h-[65%] pt-20">
           <span className="text-slate-300 text-sm">Tools for</span>
           <h1 className="flex flex-col uppercase text-4xl text-center">
